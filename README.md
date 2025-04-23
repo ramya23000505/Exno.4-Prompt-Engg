@@ -9,8 +9,9 @@ The goal of this experiment is to design and develop an AI-powered chatbot that 
 
 Create prompts using various AI prompting techniques to guide your experiment, data collection, analysis, and report creation
 
+## PROMPT-OUPUT
 
-# Enhancing Customer Experience: A Comprehensive Approach to Retail Chatbot Development
+## Enhancing Customer Experience: A Comprehensive Approach to Retail Chatbot Development
 
 **Tagline:** _Designing smarter retail experiences through AI-powered chatbot innovation._
 
