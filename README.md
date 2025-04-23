@@ -86,5 +86,6 @@ By employing diverse prompting techniques across different phases of the experim
 
 
 
-# Result: Thus the Prompts were exected succcessfully .
+# Result: 
+Thus, the Prompts were exected succcessfully .
 
