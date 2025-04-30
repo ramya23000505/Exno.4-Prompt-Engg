@@ -1,92 +1,88 @@
-# Exno.4-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
-### DATE: 23-04-2025                                                                           
+# Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+### DATE:                                                                            
 ### REGISTER NUMBER : 212223230169
-### NAME: RAMYA R
-### Aim: 
-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
-### Algorithm: 
-The goal of this experiment is to design and develop an AI-powered chatbot that can handle customer inquiries, provide support, and improve customer experience in a retail environment. 
+### Developed by: RAMYA R
 
-Create prompts using various AI prompting techniques to guide your experiment, data collection, analysis, and report creation
+### Aim:
+To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
 
-## PROMPT-OUPUT
+### Algorithm:  1. Direct Instruction Prompts
+Objective: Guide the chatbot to respond concisely to customer inquiries.
 
-## Enhancing Customer Experience: A Comprehensive Approach to Retail Chatbot Development
+Prompt Pattern:
 
-**Tagline:** _Designing smarter retail experiences through AI-powered chatbot innovation._
+Prompt: "When a customer asks for the status of their order, reply with: 'Your order is currently being processed and will be delivered by [date].'"
 
-## Introduction
-In the evolving landscape of retail, chatbot technology is becoming essential for improving customer service interactions. This project outlines a structured experiment design to gather insights, analyze data, and create a comprehensive report on chatbot development tailored to enhance the retail customer experience.
+2. Contextual Prompting
 
----
+Objective: Incorporate specific context to provide detailed answers based on the user’s previous interaction.
 
-## 1. Experiment Design
+Prompt Pattern:
 
-### Open-Ended Prompts
-- **Challenges**: "What challenges do customers commonly face when interacting with customer service in retail?"
-- **Ideal Flow**: "Describe the ideal interaction flow for a chatbot designed to assist retail customers."
+Prompt: "If the customer previously mentioned that they haven’t received their order, say, 'I see that you mentioned your order hasn't arrived yet. Let me check the details for you and get back shortly.'"
 
-### Specific Prompts
-- **Top Features**: "List the top five features that a retail chatbot should have to improve customer experience."
-- **Common Queries**: "Identify common customer queries that a chatbot should be able to handle effectively."
+3. Persona-Based Prompting
 
----
+Objective: Design the chatbot to adopt a specific persona, making the interaction more engaging.
 
-## 2. Data Collection
+Prompt Pattern:
 
-### Survey Prompts
-- "Please rate your satisfaction with current customer service options on a scale from 1 to 10."
-- "What additional features would you like to see in a customer service chatbot?"
+Prompt: "Pretend you are a friendly, helpful customer service representative. Use a conversational tone, such as 'Hey there! I’m here to help with any questions you might have. Let’s get your issue sorted!'"
 
-### Scenario-Based Prompts
-- "Imagine you are a customer who needs help finding a product in a store. Describe how you would like the chatbot to assist you."
-- "Picture a frustrating shopping experience. What could a chatbot do to alleviate that frustration?"
+4. Few-Shot Prompting
 
----
+Objective: Teach the AI how to respond using a few examples, enabling it to generalize for similar situations.
 
-## 3. Data Analysis
+Prompt Pattern:
 
-### Analytical Prompts
-- "Based on customer feedback, which three main themes emerge regarding chatbot interactions?"
-- "What patterns can be identified from customer inquiries related to returns and exchanges?"
+Prompt: "Here are some examples of how to handle technical questions:
 
-### Comparative Prompts
-- "How do customer satisfaction levels compare between traditional support channels and chatbot interactions?"
-- "Evaluate the effectiveness of various chatbot features based on customer feedback."
+'My phone isn't charging.' → 'Have you tried using a different cable? If that doesn’t work, it may be an issue with the port.'
+'The screen is flickering.' → 'It sounds like a display issue. Have you tried restarting the device?'
 
----
+Now, respond to: 'My app keeps crashing.'"
 
-## 4. Report Creation
+5. Chain of Thought Prompting
 
-### Structure Prompts
-- "Outline the key sections that should be included in the final report on the chatbot project."
-- "What recommendations should be made to improve the chatbot based on the collected data?"
+Objective: Use a step-by-step reasoning approach for resolving more complex or technical issues.
 
-### Summarization Prompts
-- "Summarize the main findings related to customer preferences for chatbot interaction."
-- "What are the implications of the data analysis for future chatbot development?"
+Prompt Pattern:
 
----
+Prompt: "When a customer reports their laptop overheating, guide them through the following steps:
 
-## 5. Feedback and Iteration
+Ask if they are using the laptop on a soft surface.
 
-### Reflection Prompts
-- "What lessons were learned from this project that could improve future chatbot developments?"
-- "How can we incorporate customer feedback into the ongoing development of the chatbot?"
+Suggest moving the laptop to a flat, hard surface for better airflow.
 
-### Vision Prompts
-- "Imagine the chatbot one year from now. What advancements or features should it have incorporated based on user feedback?"
-- "Describe the ideal role of an AI chatbot in enhancing the overall customer journey in retail."
+Ask if they’ve cleaned the vents recently.
 
----
+Recommend restarting the device to see if the issue persists.
 
-## Conclusion
-By employing diverse prompting techniques across different phases of the experiment, we can effectively gather insights, analyze data, and create a robust report. This structured approach is key to developing an AI-powered chatbot that truly meets the needs of customers, ultimately improving their experience in the retail environment.
+Now, solve: 'My laptop fan is making a loud noise.'"
 
+6. Instruction with Constraints
+
+Objective: Instruct the chatbot to provide assistance while adhering to specific constraints (e.g., response length or tone).
+
+Prompt Pattern:
+
+Prompt: "Respond to order inquiries in no more than 50 words and avoid using technical jargon. For example, 'Your order is on the way and should arrive by [date]. Feel free to reach out if you need anything 
+
+else.'"
+
+7. Reflective Prompting
+
+Objective: Ensure that the chatbot reflects the user’s query back to them before providing a response, reducing misunderstandings.
+
+Prompt Pattern:
+
+Prompt: "When a customer asks for help, first reflect their question back to them. For example, if they ask 'How can I reset my password?' respond with 'You're asking how to reset your password, correct? Here’s 
+
+how you can do it.'"
+
+Result: The various types of Prompts are executed successfully.
 
 
 
-
-# Result: 
-Thus, the Prompts were exected succcessfully .
+# Result: Thus the Prompts were exected succcessfully .
 
