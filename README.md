@@ -87,12 +87,6 @@ Now, solve: 'My laptop fan is making a loud noise.'"
 Result: The various types of Prompts are executed successfully.
 
 ## OUTCOME
-# AI-Powered Chatbot Design for Customer Assistance
-
-## Aim:
-To design an AI-powered chatbot that helps customers resolve issues related to product troubleshooting, order tracking, and general inquiries. The chatbot must be capable of understanding varied customer needs, offering quick and accurate responses, and maintaining a user-friendly conversational tone. This project explores various prompt engineering strategies to enhance chatbot performance.
-
----
 
 ## Prompting Strategies Used
 
